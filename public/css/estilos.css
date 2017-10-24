@@ -1,5 +1,14 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
 body{
 	background-color: #f2f2f2;
+}
+
+ul, ol {
+	list-style: none;
 }
 
 .header1{
@@ -30,3 +39,71 @@ body{
 	background-color: #f1f1f1;
 	box-shadow: 10px 10px 30px #b9b9b9;
 }
+
+.Button1 {
+	box-shadow: 5px 5px 15px #b9b9b9;
+	border-style: none;
+	width: 80px;
+	height: 40px;
+	background-color: #26734d;
+	color: #f2f2f2;
+	font-weight: bold;
+}
+
+.Button1:hover{
+	border-style: none;
+	width: 80px;
+	height: 40px;
+	background-color: #2d8659;
+	color: #d9f2e6;
+	font-weight: bold;
+}
+
+.buttonLogin{
+	margin-left: 35%;
+}
+
+/* estilos barra de navegacion start*/
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+.nav-bar li a{
+	background-color: #26734d;
+	color: #f2f2f2;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav-bar li a:hover{
+	background-color: #2d8659;
+}
+
+.nav-bar > li {
+	float: left;
+}
+
+.nav-bar li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav-bar li:hover > ul{
+	display: block;
+}
+
+.nav-bar li ul li{
+	position: relative;
+}
+
+.nav-bar li ul li ul{
+	right: -100%;
+	top: 0px;
+}
+/* estilos barra de navegacion end*/

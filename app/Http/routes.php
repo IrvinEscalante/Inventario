@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('/inventario/login');
 });
+
+Route::get('/dashboard', function () {
+    return view('/inventario/dashboard');
+});
+

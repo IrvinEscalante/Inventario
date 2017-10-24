@@ -18,12 +18,12 @@
 				User password:
 				<input type="password" name="psw">
 				<br><br>
-				<input type="submit" value="Ingresar"></input>
+				<input class="Button1 buttonLogin" type="submit" value="Ingresar"></input>
 			</form>
 		</div>
 	</div>
 	
-	<!--banner -->
+	<!-- menu desplegable -->
 	<!--content -->
 	<!--footer -->
 	</body>
